@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExBrowser | High-Performance Minimalism</title>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .hero {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle at center, #003336 0%, #0a0a0a 70%);
+            width: 100%;
+        }
+        .container {
+            max-width: 800px;
+            padding: 40px;
+        }
+        h1 { font-size: 4rem; margin: 0; letter-spacing: 4px; }
+        span { color: #00f2ff; text-shadow: 0 0 20px rgba(0, 242, 255, 0.5); }
+        .tagline { font-size: 1.5rem; color: #888; margin-bottom: 40px; }
+        
+        .mission-box {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(0, 242, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: -50px;
+            backdrop-filter: blur(10px);
+            text-align: left;
+        }
+        h2 { color: #00f2ff; font-size: 1.8rem; border-bottom: 1px solid #222; padding-bottom: 10px; }
+        p { line-height: 1.6; color: #ccc; font-size: 1.1rem; }
+        
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+        }
+        .stat-item { border-left: 2px solid #00f2ff; padding-left: 15px; text-align: left; }
+        .stat-val { display: block; font-size: 1.5rem; font-weight: bold; color: white; }
+        .stat-label { color: #666; font-size: 0.9rem; }
+
+        .download-btn {
+            background-color: #00f2ff;
+            color: #0a0a0a;
+            padding: 20px 50px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: 0.3s;
+            display: inline-block;
+            box-shadow: 0 0 20px rgba(0, 242, 255, 0.3);
+            margin-top: 20px;
+        }
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 35px rgba(0, 242, 255, 0.6);
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <h1><span>EX</span>BROWSER</h1>
+        <p class="tagline">Stop the RAM drain. Start the experience.</p>
+        <a href="https://github.com/exadsmail-cpu/ExBrowser/releases/download/v1.0/ExBrowser.exe" class="download-btn">DOWNLOAD V1.0 (107 MB)</a>
+    </section>
+
+    <div class="container">
+        <div class="mission-box">
+            <h2>The Mission</h2>
+            <p>
+                Standard browsers have become "system parasites"—consuming 500MB to 1GB of storage and massive amounts of RAM just to idle. This bloat damages system longevity and slows down your workflow.
+            </p>
+            <p>
+                <strong>ExBrowser</strong> was created to solve this. Our goal is to provide a smooth, private, and secure browsing environment that respects your hardware. By stripping away unnecessary background telemetry and heavy "extra" features, we deliver a browser that works <em>with</em> your PC, not against it.
+            </p>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-val">107 MB</span>
+                    <span class="stat-label">Total Size</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-val">Low Impact</span>
+                    <span class="stat-label">RAM Usage</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-val">Secure</span>
+                    <span class="stat-label">Private Engine</span>
+                </div>
+            </div>
+
+            <h2>Why Choose EX?</h2>
+            <p>
+                Whether you are on a high-end workstation or an older laptop, ExBrowser ensures your system stays healthy while you navigate the web. No "eating" your RAM. No damaging your speed. Just the web, essential and fast.
+            </p>
+        </div>
+    </div>
+
+    <p style="color: #444; margin: 40px 0;">© 2026 Ex-Labs Development</p>
+
+</body>
+</html>
